@@ -8,12 +8,13 @@ public class Fundament : IFundament
         else
         Console.WriteLine("a is not even");
 
-        throw new NotImplementedException();
+       
     }
 
     public string GetAInterestingFact(string fact)
     {
-        throw new NotImplementedException();
+        return fact;
+       
     }
 
     public void SumTwoNumbers()

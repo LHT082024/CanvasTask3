@@ -17,5 +17,9 @@ class Program
 
         fundament.CheckOddOrEven(a);
 
+        string cats = "cats are awesome";
+         fundament.GetAInterestingFact(cats);
+        Console.WriteLine(cats);
+
     }
 }
