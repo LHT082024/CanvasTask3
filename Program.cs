@@ -23,7 +23,9 @@ class Program
 
         double a = 10;
         double b = 20;
-        fundament.CheckOddOrEven(a);
+        double result = a + b;
+        fundament.SumTwoNumbers(a, b);
+        Console.WriteLine(result);
 
     }
 }
