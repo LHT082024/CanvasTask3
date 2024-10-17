@@ -2,6 +2,12 @@ public class Fundament : IFundament
 {
     public void CheckOddOrEven(double a)
     {
+        if (a % 2 == 0)
+        Console.WriteLine("a is even");
+
+        else
+        Console.WriteLine("a is not even");
+
         throw new NotImplementedException();
     }
 

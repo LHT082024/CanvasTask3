@@ -10,6 +10,12 @@ class Program
         greetings.SayHello();
         // Japanese greeting
         greetings.YoiTsuitachi();
+        
+        Fundament fundament = new Fundament();
+
+        double a = 5;
+
+        fundament.CheckOddOrEven(a);
 
     }
 }
