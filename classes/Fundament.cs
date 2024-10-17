@@ -26,7 +26,7 @@ public class Fundament : IFundament
 
     public double SumTwoNumbersOfGivenType(double a, double b)
     {
-        throw new NotImplementedException();
+        return a +  b;
     }
 
 
