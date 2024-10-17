@@ -1,8 +1,8 @@
 public class Fundament : IFundament
 {
-    public void CheckOddOrEven(double a)
+    public void CheckOddOrEven(double z)
     {
-        if (a % 2 == 0)
+        if (z % 2 == 0)
         Console.WriteLine("a is even");
 
         else
@@ -19,7 +19,9 @@ public class Fundament : IFundament
 
     public void SumTwoNumbers()
     {
-        throw new NotImplementedException();
+        double a = 0;
+        double b = 0;
+        double result = a + b;
     }
 
     public double SumTwoNumbersOfGivenType(double a, double b)

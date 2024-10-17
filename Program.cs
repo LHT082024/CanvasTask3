@@ -13,13 +13,17 @@ class Program
         
         Fundament fundament = new Fundament();
 
-        double a = 5;
+        double z = 5;
 
-        fundament.CheckOddOrEven(a);
+        fundament.CheckOddOrEven(z);
 
         string cats = "cats are awesome";
          fundament.GetAInterestingFact(cats);
         Console.WriteLine(cats);
+
+        double a = 10;
+        double b = 20;
+        fundament.CheckOddOrEven(a);
 
     }
 }
