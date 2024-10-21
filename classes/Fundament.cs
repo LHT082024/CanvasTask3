@@ -17,11 +17,10 @@ public class Fundament : IFundament
        
     }
 
-    public void SumTwoNumbers()
+    public void SumTwoNumbers(double a, double b)
     {
-        double a = 0;
-        double b = 0;
-        double result = a + b;
+        double sum = a + b ;
+      
     }
 
     public double SumTwoNumbersOfGivenType(double a, double b)

@@ -21,10 +21,8 @@ class Program
          fundament.GetAInterestingFact(cats);
         Console.WriteLine(cats);
 
-        // double a = 10;
-        // double b = 20;
-        // double result = a + b;
-        // fundament.SumTwoNumbers(a, b);
+      
+         fundament.SumTwoNumbers(2, 4);
         // Console.WriteLine(result);
 
        double result = fundament.SumTwoNumbersOfGivenType(2, 4);
